@@ -2,7 +2,7 @@ Continuous Integration Demo
 ============================
 
 [![Build Status](https://travis-ci.com/fatalaijon/demo-pyci.svg?branch=main)](https://travis-ci.com/fatalaijon/demo-pyci)
-[![Coverage Status](https://coveralls.io/repos/github/fatalaijon/demo-pyci/badge.svg?branch=master)](https://coveralls.io/github/fatalaijon/demo-pyci?branch=master)
+[![codecov](https://codecov.io/gh/fatalaijon/demo-pyci/branch/main/graph/badge.svg)](https://codecov.io/gh/fatalaijon/demo-pyci)
 
 
 This project demonstrates use of Travis CI to build and test a Python project.  
