@@ -8,11 +8,10 @@ git:
 
 install:
     - pip install -r requirements.txt
-    - pip install python-coveralls
 
 script:
     - coverage run stats_test.py
 
-# create a coverage report on Coveralls.io
+# create a coverage report on Codecov.io
 after_script:
-    - coveralls
+    - bash < (curl -s https://codecov.io/bash)
