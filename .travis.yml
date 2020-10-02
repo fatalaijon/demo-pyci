@@ -13,5 +13,6 @@ script:
     - flake8 stats.py
     - coverage run stats_test.py
 
-after:
+# create a coverage report on Coveralls.io
+after_script:
     - coveralls
